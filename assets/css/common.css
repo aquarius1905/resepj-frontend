@@ -65,13 +65,56 @@ body {
   padding: 5px 15px;
   font-size: 18px;
 }
+.register-btn:disabled {
+  background-color: #555;
+  color: #aaa;
+}
 .login-img,
 .register-img {
   width: 35px;
   height: auto;
 }
+.done {
+  width: 700px;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.done-inner {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 10px 0;
+}
+
+.done-content,
+.msg-content {
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+.error {
+  display: block;
+  color: tomato;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px 0;
+}
 @media screen and (max-width: 768px) {
   .select-wrap:after {
     right: 2%;
+  }
+  .login-btn-wrap,
+  .register-btn-wrap {
+    display: block;
+    text-align: center;
   }
 }
