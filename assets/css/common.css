@@ -1,0 +1,77 @@
+body {
+  background-color: #eee;
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  background-color: #305dff;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.box-shadow {
+  box-shadow: 2px 2px 4px 1px #888;
+}
+.user-login,
+.register,
+.dashboard {
+  width: 400px;
+  margin: 30px auto 0;
+  border-radius: 5px 5px 0 0;
+}
+.login-ttl,
+.register-ttl,
+.dashboard-ttl {
+  background-color: #305dff;
+  color: #fff;
+  padding: 25px;
+  font-size: 20px;
+  border-radius: 5px 5px 0 0;
+  font-weight: normal;
+}
+.login-form,
+.register-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.login-input-wrap,
+.register-input-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.login-input,
+.register-input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #4b4b4b;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.login-input:focus,
+.register-input:focus {
+  outline: none;
+}
+.login-btn,
+.register-btn {
+  background-color: #305dff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+.login-img,
+.register-img {
+  width: 35px;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .select-wrap:after {
+    right: 2%;
+  }
+}
